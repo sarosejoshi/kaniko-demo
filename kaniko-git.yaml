@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: kaniko
-    image: gcr.io/kaniko-project/executor:debug-v0.22.0
+    image: gcr.io/kaniko-project/executor:debug-v0.16.0
     args: ["--context=git://github.com/sagarshrestha24/kaniko-demo",
     "--destination=sagark24/devops:v1"]
     volumeMounts:
